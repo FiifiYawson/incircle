@@ -1,13 +1,34 @@
+@font-face {
+  font-family: poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: bubblegum;
+  src: url(./fonts/BubblegumSans-Regular.ttf);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: poppins;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+:root{
+  --semantic-color: #4936B3;
+  --text-color: #3C336C;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
